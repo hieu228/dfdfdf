@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luyện nghe tiếng Anh</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Luyện nghe tiếng Anh</h1>
+
+      <!-- Audio luyện nghe -->
+      <div class="listening-section">
+        <h2>Nghe đoạn audio dưới đây</h2>
+        <audio id="audio" controls>
+          <source src="./sound_b.mp3" type="audio/mpeg" />
+          Trình duyệt của bạn không hỗ trợ phát âm thanh.
+        </audio>
+      </div>
+
+      <!-- Câu hỏi trắc nghiệm -->
+      <div class="listening-quiz-section">
+        <h2>Câu hỏi</h2>
+        <p id="listening-question"></p>
+        <div id="listening-options"></div>
+        <button id="check-answer">Kiểm tra đáp án</button>
+        <p id="listening-result"></p>
+      </div>
+
+      <a href="index.html">Quay lại trang chính</a>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
